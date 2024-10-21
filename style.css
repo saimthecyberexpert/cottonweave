@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: work sans;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px 30px 90px;
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+#left{
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+    margin-right: 200px;
+}
+#left h1{
+    font-weight: 500;
+    font-size: 160px;
+    color: #292929;
+    line-height: 150px;
+}
+#colors{
+    display: flex;
+    width: fit-content;
+    border: 1px solid #292929;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-top: 27%;
+    
+}
+#colors h3{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #7B6651;
+    margin-right: 5px;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #292929;
+}
+#btm-left h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 80px;
+}
+#btm-left p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+#right{
+    height: 100%;
+    width: 35%;
+}
+#right-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+#right-top h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+#right-top h5{
+    font-size: 17px;
+    font-weight: 600;
+    /* margin-right: 6px; */
+}
+#right-top h5 i{
+    color: #FFCF0D;
+    margin-right: 5px;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 92%;
+}
+#scroll-circle{
+    height: 150px;
+    width: 150px;
+    background-color: #292929;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    right: 9.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#scroll-circle h3{
+    color: white;
+    font-weight: 500;
+}
+#rotated{
+    position: absolute;
+    rotate: -90deg;
+    transform-origin: top left;
+    right: 37.6%;
+    bottom: -1.7%;
+    font-size: 25px;
+    font-weight: 500;
+}
